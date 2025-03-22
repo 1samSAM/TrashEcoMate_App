@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "584316292909",
+    "firebase_url": "https://trashecomate-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "trashecomate",
+    "storage_bucket": "trashecomate.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584316292909:android:a3c448ad81a4f907444da4",
+        "android_client_info": {
+          "package_name": "com.example.authenticationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbEjV8Lq74HZ3_PLCH82pe1DEEn3uaO3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584316292909:android:f8362c7801cf951d444da4",
+        "android_client_info": {
+          "package_name": "com.example.trashecomate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbEjV8Lq74HZ3_PLCH82pe1DEEn3uaO3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

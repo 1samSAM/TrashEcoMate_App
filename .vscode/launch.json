@@ -1,0 +1,80 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dart: Attach to Process",
+            "type": "dart",
+            "request": "attach"
+        },
+        {
+            "type": "cmake",
+            "request": "launch",
+            "name": "CMake: Configure project",
+            "cmakeDebugType": "configure",
+            "clean": false,
+            "configureAll": false
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "Launch Edge",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "trashecomate (Android Emulator)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [],
+            "deviceId": "flutter_emulator " // Replace with your emulator ID
+        },
+        {
+            "name": "trashecomate (iOS Simulator)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [],
+            "deviceId": "1234567890" // Replace with your simulator ID
+        },
+        {
+            "name": "trashecomate (Chrome)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [],
+            "deviceId": "chrome"
+        },
+        {
+            "name": "trashecomate (Profile Mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [],
+            "flutterMode": "profile",
+            "deviceId": "flutter_emulator_2 " // Replace with your emulator ID
+        },
+        {
+            "name": "trashecomate (Release Mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [],
+            "flutterMode": "release",
+            "deviceId": "Medium_Phone_Edited_API_27" // Replace with your emulator ID
+        }
+    ]
+}
